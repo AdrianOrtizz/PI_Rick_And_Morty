@@ -1,0 +1,39 @@
+.title{
+    display: flex;
+    justify-content: center;
+
+    .favTitle{
+        font-size: 3em;
+        margin: auto;
+        display: inline;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+    }
+}
+
+.filtersContainer{
+    width: 14em;
+    height: 2em;
+    margin: 10px auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    .filterContainer{
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    height: auto;
+}

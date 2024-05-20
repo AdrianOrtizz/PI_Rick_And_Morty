@@ -1,0 +1,23 @@
+.searchContainer{
+    position: relative;
+
+    .searchInput{
+        height: 2em;
+        border: none;
+        border-radius: .5em;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .searchButton{
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-size: .7em;
+        background-color: transparent;
+        border: 0;
+    }
+}

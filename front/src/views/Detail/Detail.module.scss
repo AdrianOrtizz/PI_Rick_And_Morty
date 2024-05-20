@@ -1,0 +1,29 @@
+.title{
+    display: flex;
+    justify-content: center;
+
+    .charTitle{
+        font-size: 3em;
+        margin: auto;
+        display: inline;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+    }
+}
+
+.detailCard{
+    @include container;
+    display:flex;
+    margin: 3em auto;
+
+    .charImage{
+        height: 40em;
+    }
+
+    .dataContainer{
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

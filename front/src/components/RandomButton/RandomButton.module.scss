@@ -1,0 +1,13 @@
+.randomButton{
+    width: 5em;
+    height: 1.6em;
+    background: white;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .5em;
+
+    &:hover{
+        color: #555;
+    }
+}
